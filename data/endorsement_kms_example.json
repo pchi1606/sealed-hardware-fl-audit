@@ -1,0 +1,19 @@
+{
+  "_type": "https://in-toto.io/Statement/v1",
+  "predicateType": "https://project-oak.github.io/oak/tr/endorsement/v1",
+  "subject": [
+    {
+      "name": "kms",
+      "digest": {
+        "sha256": "d14a1852f08b528f9975245f300d44e2500aaff9c8a9c5572e0114b7203e3e47"
+      }
+    }
+  ],
+  "predicate": {
+    "issuedOn": "2026-05-26T16:54:11.355000Z",
+    "validity": {
+      "notBefore": "2026-05-26T16:54:11.355000Z",
+      "notAfter": "2026-07-10T16:54:11.355000Z"
+    }
+  }
+}

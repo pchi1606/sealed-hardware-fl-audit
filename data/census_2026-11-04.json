@@ -1,0 +1,15 @@
+{
+  "experiment": "E8 all-keys endorsement census, 2026-11-04",
+  "endpoint": "POST https://rekor.sigstore.dev/api/v1/index/retrieve",
+  "note": "Entry counts per published endorsement key (SHA-256 fingerprint prefix of the DER public key). Payload verification: 320 payloads byte-matched, 0 mismatches; policy payloads classified (sampled for keys with >120 entries). Full record: E8-census-signatures.md in the panel record.",
+  "counts_by_key_prefix": {
+    "ea0d1f8f": 115, "98fc8ad4": 51, "aafd4d5a": 43, "8546b897": 44,
+    "0b4fcf07": 45, "a19ea774": 83, "021205b2": 3,
+    "3ebd2cd4": 30752, "49140964": 8, "e5b8b89b": 0, "48877c9b": 0,
+    "2c17376f": 0, "30cab9ee": 0, "e40567d2": 0, "927bca59": 0,
+    "4d41c79b": 12051, "ee9911ad": 4607, "2bb537ad": 409718, "5aac231c": 52049
+  },
+  "total_entries": 509569,
+  "guide_only_fingerprints_not_in_current_reference_values": ["6052f352", "5f884b69"],
+  "signatures_verified_on_exemplar": ["rekor checkpoint", "signed entry timestamp", "endorsement statement signature"]
+}

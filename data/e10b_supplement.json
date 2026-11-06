@@ -1,0 +1,930 @@
+{
+ "payload_stats": {
+  "2bb537ad": {
+   "label": "Private Compute Services policy",
+   "entries": 409718,
+   "attempted": 30,
+   "served": 30,
+   "http400": 0,
+   "hash_ok": 30
+  },
+  "3ebd2cd4": {
+   "label": "Gboard policy 1",
+   "entries": 30878,
+   "attempted": 31,
+   "served": 29,
+   "http400": 1,
+   "hash_ok": 29
+  },
+  "49140964": {
+   "label": "Gboard policy 2",
+   "entries": 8,
+   "attempted": 8,
+   "served": 0,
+   "http400": 7,
+   "hash_ok": 0
+  },
+  "4d41c79b": {
+   "label": "Google App policy",
+   "entries": 12051,
+   "attempted": 30,
+   "served": 30,
+   "http400": 0,
+   "hash_ok": 30
+  },
+  "5aac231c": {
+   "label": "Recorder policy",
+   "entries": 52049,
+   "attempted": 30,
+   "served": 30,
+   "http400": 0,
+   "hash_ok": 30
+  },
+  "ee9911ad": {
+   "label": "Pixel Search policy",
+   "entries": 4607,
+   "attempted": 30,
+   "served": 30,
+   "http400": 0,
+   "hash_ok": 30
+  }
+ },
+ "failures": [
+  [
+   "Gboard policy 1",
+   "108e9186e8c5677a",
+   "entry",
+   -1
+  ],
+  [
+   "Gboard policy 2",
+   "108e9186e8c5677a",
+   "entry",
+   -1
+  ]
+ ],
+ "distinct_artifacts": 57,
+ "digest_ref_counts": {
+  "e20a833b38db29cd2c25b258b88b42baa0ca1e3c53a61480de1149bb23d03d53": 1,
+  "519a295652e5906139bc35acaacc3f7c63e9d2f3a9f012171a8d00f295a48f2b": 1,
+  "a527f46f7f92d0eba1f732bff08340fdaaeae279cd34f33c175aee60e7816c09": 1,
+  "5e1dc53399772441f5a1f9c437260ffd3e50e1c30d33804b62b7b9bbca6ae9e7": 1,
+  "5a4f7bbe90524e587aee55c2335f4d11b2f1d97e9e49ee130edb6f6ba252d62f": 1,
+  "53c683a300c26c61ad99d69772f41ef9c56304c024d69577a5986cce149e180d": 1,
+  "13f39cb1be572f0bdf914e6e18ea8ddc9dfb84d5da2bf66cbcdea2ce1cd24e74": 1,
+  "6741f2f5eea39bd02067aede4c5139dd17ae4a0db94b2a53e867f31b8ce4eb4a": 1,
+  "0573f9c9ab09e61b25c811f373b9c8bfed68d3290d333be42b1006f24ffd429f": 1,
+  "e9be40f56986be2bee8418cc3a4036896ec693d23d2dee885c93a43c6203a379": 1,
+  "89761117e1b0e9da03764a4b3139a8f298a872fdb60b6930a4dcf261712be56e": 1,
+  "0e4808f44b58f2b9a0bb5196dc1893e069d5657aad0066049801d460ec3a7e86": 1,
+  "8f162213aaf708cf88e57ca3d868632202d74aacd1b60480eb512d0e5600bb8f": 1,
+  "03bb0c1d985ae09a79ca2840bd08cce039509c7c468fd3a2041dc9a6e93de47f": 1,
+  "b4838f044999b4f3f1a6cb60441fd5e41083b794cbb75eaab6def8a56060f0ad": 1,
+  "f8eb28213a7fca9e011a6794b482e5218dc97c51ad4e01387415525f8bd1bfa6": 1,
+  "cedd37998850fe98adfe517b7747735fdb9510df80b31ada1c2e15b21c02a614": 4,
+  "9a877855e0ae6613fa9b7b23decabafb6f744dc55c78cc053a6265b607939fb4": 4,
+  "9fc8c2c7fbbc7770a8ddd04a4a5b03ef178bf3ab780ad98074898a8808cfa16d": 1,
+  "33ef45b5c51ded824d2f43aab3f4f6bee32813620056b7124044190b1ffeff2e": 3,
+  "e4ed810ec287a4a5db7259a9ccdec287d5edd3e777e62be675f7c26975330ead": 1,
+  "d017c89d85a6700f75ff03237ba3a6401cea6e76667968545495d237b0044345": 1,
+  "2d4384e41a652475d01b47d9a0a29664a7d427afbe704afeee12a6d51183d9d2": 1,
+  "f8a4dc99d473c836c80b501815979f9cae69b3f91f29adfa7df587ab86027d1a": 8,
+  "e40476b4f754c986747f23963b61dc25b0c70c96596114f7a15c23ce1326fa34": 3,
+  "5490eaca6b650360a8c8acf1033c187972d00f122990d6b5b968ea490ea2b018": 1,
+  "b04d9dc2cccf8e3636b7cbbd1b2795eb2fcb73ce56c148772fa405d01661d385": 2,
+  "40de4e409f05dddc1798ed45d8aa7efa067c1ceda3925a6ca691d93934f63a2b": 1,
+  "9a90e725ec6e1072694c8f2dbbd651a779d9f0250f2481398790b9535c71c7eb": 3,
+  "ecf1357d12e3ebe7664ff34bc79dc6783ad0f3f91ade8ea081309742a1d0826b": 1,
+  "5b347085d095e9afb896a6e37b73540ff4ed628f4273b440b840ea5817d78138": 1,
+  "7621ed9c8f01b47b3051344a54016afa223afb57dbd7514cb88d517773e72e36": 1,
+  "9984ece32bf1076cde21b09c9d1910b38ba66109a7831f731188ca7f05829a73": 1,
+  "6c8a5e5ced4a327530a3c5bc29b6975a097f05e23e8106556b3719881a4c3c55": 1,
+  "7252be1866b945467b0cd8462195734dcfc898d3d94cbf5b0e1845662f5c2d4f": 1,
+  "0baa49b5c06cd3fa5d6faa043b319fada4748fcb499b926d2b7b7f6eafb98510": 1,
+  "4abf9d3489580f958d595b54271aa280c13dfb7cbfd07757f95b9fc769696376": 1,
+  "dceb3093528225f44ba3dbef3ae8cc08451e3199211135c1e76e76986f521254": 1,
+  "d85b5be82d037a3947902d93130483428477a2130810bb40ac452893d6f9a9b0": 1,
+  "c73a4b4d560e9709d66a0519a5d7c687971f2034262413da349116bd5f129886": 1,
+  "9edfd422f0e293f95527808fb0cf4f8e35d7747c050a61e97414739df3866f60": 1,
+  "4d0e1f8e5000c7f61a9b5517df8f33ce5157892942cf46c43b2e37c0186b7fba": 1,
+  "be86175b7ec4f9ab8a9d47dc57907eee044567ed7e25080dc4c6b008f2d1e313": 1,
+  "3cbb08ecf92c27bb948eaf6dcdb261bf88b7eddd52a8314259c8fe18bef9f938": 3,
+  "9f084ffcc6742e4499c7aa22bdc88a5ab52d02f5780b2152b1a132bc68398f28": 1,
+  "8b292d3786faeace2d9971be2698c7b67ae2622c4ded080550e7be0648be2ad9": 1,
+  "009a25011c25fbdd076e23c0b21eadbbfc3a062aae9f42804cc27c99c20dc14a": 1,
+  "981fd9121622d6f709bb73fe63cbadf64c53413f9ee826a752e184c974d4e0d5": 1,
+  "40c20d5127c08a210ea56097fa9adc0a5edb220bc05752ba1789a6465a7b9319": 2,
+  "fe84e59ddfeadcb7f39533663582102a2944f3ec57e1063cd5063d7fb722452a": 2,
+  "d9ee410a8cc66e55f6da0bac82e2c513f128837568304c9ab2d1efbb30762ae4": 2,
+  "860c0ccc55dd4ca28bf9ed87d09cc671b4820fd9c467403b1912b9badad474e2": 1,
+  "1b17525c49d87fd0270f3859ae257e354e6eee8f27b72e4f7efde3b929876a13": 2,
+  "8eceb475975492f96c0974e72a41ce117e05f9a26083fae07ddf6841e504c2bd": 2,
+  "53ff42d4edace3af71188c5a5a6e9a1043d44813205b9936c8f1eead3427e890": 2,
+  "65e5a759ab7801cf82b9a235fe3a9c7d918c140a816563d420aad4bc65ef1f84": 1,
+  "1fe52f4c335325b215553b1f022532103b066e60d2b5a044546e0eb9f549158b": 1
+ },
+ "suspect_refs": [
+  {
+   "key": "Google App policy",
+   "uuid": "108e9186e8c5677aae4bbebd0d94f20a3e276a428b99e0d6d73ec72eccd3ac8c4b151e436d963bf5",
+   "integratedTime": 1791297482,
+   "validity": {
+    "notBefore": "2026-10-06T14:38:00.216632Z",
+    "notAfter": "2027-01-04T14:38:00.216632Z"
+   }
+  },
+  {
+   "key": "Google App policy",
+   "uuid": "108e9186e8c5677a93d3990cafc84b91b5c054505369fe8ce5f7db5503db2a877211948ca0416d4d",
+   "integratedTime": 1788210299,
+   "validity": {
+    "notBefore": "2026-08-31T21:04:57.551004Z",
+    "notAfter": "2026-11-29T21:04:57.551004Z"
+   }
+  },
+  {
+   "key": "Google App policy",
+   "uuid": "108e9186e8c5677a39b5ea530573097d7bef906a728a0200af71ad3d99d134ee89e043799553e9e0",
+   "integratedTime": 1789555187,
+   "validity": {
+    "notBefore": "2026-09-16T10:39:44.553644Z",
+    "notAfter": "2026-12-15T10:39:44.553644Z"
+   }
+  },
+  {
+   "key": "Google App policy",
+   "uuid": "108e9186e8c5677ac87a7d498966630c152401b41996254614ed59f82e1d9b02c58ad9e2225029e3",
+   "integratedTime": 1789668093,
+   "validity": {
+    "notBefore": "2026-09-17T18:01:23.306070Z",
+    "notAfter": "2026-12-16T18:01:23.306070Z"
+   }
+  },
+  {
+   "key": "Google App policy",
+   "uuid": "108e9186e8c5677a868938bc835187df0481ce565a3bcaa126e140f8ac4d9e0ff5ab8c72f2110c86",
+   "integratedTime": 1792094425,
+   "validity": {
+    "notBefore": "2026-10-15T19:59:50.645588Z",
+    "notAfter": "2027-01-13T19:59:50.645588Z"
+   }
+  },
+  {
+   "key": "Google App policy",
+   "uuid": "108e9186e8c5677a999f6f8c44a2856f1e375ea3de84e5e865d35fcb6dc1cadc3ab7abf96d00da32",
+   "integratedTime": 1787834262,
+   "validity": {
+    "notBefore": "2026-08-27T12:37:40.527223Z",
+    "notAfter": "2026-11-25T12:37:40.527223Z"
+   }
+  },
+  {
+   "key": "Google App policy",
+   "uuid": "108e9186e8c5677aec1c756d6d6390f90d31980d70a4ed6f60be60c3f01af72a506a28a8b8a423a8",
+   "integratedTime": 1788166068,
+   "validity": {
+    "notBefore": "2026-08-31T08:47:47.060858Z",
+    "notAfter": "2026-11-29T08:47:47.060858Z"
+   }
+  },
+  {
+   "key": "Google App policy",
+   "uuid": "108e9186e8c5677a336e6da5a738ad3f30c152b6b58ec30043f1ceb7a39f54d0fe87de6fbb613e91",
+   "integratedTime": 1791070210,
+   "validity": {
+    "notBefore": "2026-10-03T23:30:07.329970Z",
+    "notAfter": "2027-01-01T23:30:07.329970Z"
+   }
+  }
+ ],
+ "decoded_inventory": [
+  {
+   "in": "2d4384e41a652475d01b47d9a0a29664a7d427afbe704afeee12a6d51183d9d2",
+   "path": "3.2.1.1.5",
+   "kind": "base64",
+   "decoded_bytes": 44189,
+   "marker_hits": {
+    "_MAX_ZCDP": 2,
+    "ZCDP": 2,
+    "import ": 30,
+    "def ": 31,
+    "python": 4,
+    "lambda": 5,
+    "print(": 2,
+    "program": 17
+   },
+   "first_line": "\"\"\"A trusted program for Gboard ACT model training.\"\"\"\n\nimport base64\nfrom collections.abc import Ca"
+  },
+  {
+   "in": "2d4384e41a652475d01b47d9a0a29664a7d427afbe704afeee12a6d51183d9d2",
+   "path": "3.2.1.1.5.2",
+   "kind": "base64",
+   "decoded_bytes": 44189,
+   "marker_hits": {
+    "_MAX_ZCDP": 2,
+    "ZCDP": 2,
+    "import ": 30,
+    "def ": 31,
+    "python": 4,
+    "lambda": 5,
+    "print(": 2,
+    "program": 17
+   },
+   "first_line": "\"\"\"A trusted program for Gboard ACT model training.\"\"\"\n\nimport base64\nfrom collections.abc import Ca"
+  },
+  {
+   "in": "2d4384e41a652475d01b47d9a0a29664a7d427afbe704afeee12a6d51183d9d2",
+   "path": "3.2.1.1.5.2.1",
+   "kind": "base64",
+   "decoded_bytes": 44189,
+   "marker_hits": {
+    "_MAX_ZCDP": 2,
+    "ZCDP": 2,
+    "import ": 30,
+    "def ": 31,
+    "python": 4,
+    "lambda": 5,
+    "print(": 2,
+    "program": 17
+   },
+   "first_line": "\"\"\"A trusted program for Gboard ACT model training.\"\"\"\n\nimport base64\nfrom collections.abc import Ca"
+  },
+  {
+   "in": "2d4384e41a652475d01b47d9a0a29664a7d427afbe704afeee12a6d51183d9d2",
+   "path": "3.2.1.1.5",
+   "kind": "base64",
+   "decoded_bytes": 44189,
+   "marker_hits": {
+    "_MAX_ZCDP": 2,
+    "ZCDP": 2,
+    "import ": 30,
+    "def ": 31,
+    "python": 4,
+    "lambda": 5,
+    "print(": 2,
+    "program": 17
+   },
+   "first_line": "\"\"\"A trusted program for Gboard ACT model training.\"\"\"\n\nimport base64\nfrom collections.abc import Ca"
+  },
+  {
+   "in": "2d4384e41a652475d01b47d9a0a29664a7d427afbe704afeee12a6d51183d9d2",
+   "path": "3.2.1.1.5.2",
+   "kind": "base64",
+   "decoded_bytes": 44189,
+   "marker_hits": {
+    "_MAX_ZCDP": 2,
+    "ZCDP": 2,
+    "import ": 30,
+    "def ": 31,
+    "python": 4,
+    "lambda": 5,
+    "print(": 2,
+    "program": 17
+   },
+   "first_line": "\"\"\"A trusted program for Gboard ACT model training.\"\"\"\n\nimport base64\nfrom collections.abc import Ca"
+  },
+  {
+   "in": "2d4384e41a652475d01b47d9a0a29664a7d427afbe704afeee12a6d51183d9d2",
+   "path": "3.2.1.1.5.2.1",
+   "kind": "base64",
+   "decoded_bytes": 44189,
+   "marker_hits": {
+    "_MAX_ZCDP": 2,
+    "ZCDP": 2,
+    "import ": 30,
+    "def ": 31,
+    "python": 4,
+    "lambda": 5,
+    "print(": 2,
+    "program": 17
+   },
+   "first_line": "\"\"\"A trusted program for Gboard ACT model training.\"\"\"\n\nimport base64\nfrom collections.abc import Ca"
+  },
+  {
+   "in": "2d4384e41a652475d01b47d9a0a29664a7d427afbe704afeee12a6d51183d9d2",
+   "path": "3.2.1.1.5",
+   "kind": "base64",
+   "decoded_bytes": 44189,
+   "marker_hits": {
+    "_MAX_ZCDP": 2,
+    "ZCDP": 2,
+    "import ": 30,
+    "def ": 31,
+    "python": 4,
+    "lambda": 5,
+    "print(": 2,
+    "program": 17
+   },
+   "first_line": "\"\"\"A trusted program for Gboard ACT model training.\"\"\"\n\nimport base64\nfrom collections.abc import Ca"
+  },
+  {
+   "in": "2d4384e41a652475d01b47d9a0a29664a7d427afbe704afeee12a6d51183d9d2",
+   "path": "3.2.1.1.5.2",
+   "kind": "base64",
+   "decoded_bytes": 44189,
+   "marker_hits": {
+    "_MAX_ZCDP": 2,
+    "ZCDP": 2,
+    "import ": 30,
+    "def ": 31,
+    "python": 4,
+    "lambda": 5,
+    "print(": 2,
+    "program": 17
+   },
+   "first_line": "\"\"\"A trusted program for Gboard ACT model training.\"\"\"\n\nimport base64\nfrom collections.abc import Ca"
+  },
+  {
+   "in": "2d4384e41a652475d01b47d9a0a29664a7d427afbe704afeee12a6d51183d9d2",
+   "path": "3.2.1.1.5.2.1",
+   "kind": "base64",
+   "decoded_bytes": 44189,
+   "marker_hits": {
+    "_MAX_ZCDP": 2,
+    "ZCDP": 2,
+    "import ": 30,
+    "def ": 31,
+    "python": 4,
+    "lambda": 5,
+    "print(": 2,
+    "program": 17
+   },
+   "first_line": "\"\"\"A trusted program for Gboard ACT model training.\"\"\"\n\nimport base64\nfrom collections.abc import Ca"
+  },
+  {
+   "in": "2d4384e41a652475d01b47d9a0a29664a7d427afbe704afeee12a6d51183d9d2",
+   "path": "3.2.1.1.5",
+   "kind": "base64",
+   "decoded_bytes": 44189,
+   "marker_hits": {
+    "_MAX_ZCDP": 2,
+    "ZCDP": 2,
+    "import ": 30,
+    "def ": 31,
+    "python": 4,
+    "lambda": 5,
+    "print(": 2,
+    "program": 17
+   },
+   "first_line": "\"\"\"A trusted program for Gboard ACT model training.\"\"\"\n\nimport base64\nfrom collections.abc import Ca"
+  },
+  {
+   "in": "2d4384e41a652475d01b47d9a0a29664a7d427afbe704afeee12a6d51183d9d2",
+   "path": "3.2.1.1.5.2",
+   "kind": "base64",
+   "decoded_bytes": 44189,
+   "marker_hits": {
+    "_MAX_ZCDP": 2,
+    "ZCDP": 2,
+    "import ": 30,
+    "def ": 31,
+    "python": 4,
+    "lambda": 5,
+    "print(": 2,
+    "program": 17
+   },
+   "first_line": "\"\"\"A trusted program for Gboard ACT model training.\"\"\"\n\nimport base64\nfrom collections.abc import Ca"
+  },
+  {
+   "in": "2d4384e41a652475d01b47d9a0a29664a7d427afbe704afeee12a6d51183d9d2",
+   "path": "3.2.1.1.5.2.1",
+   "kind": "base64",
+   "decoded_bytes": 44189,
+   "marker_hits": {
+    "_MAX_ZCDP": 2,
+    "ZCDP": 2,
+    "import ": 30,
+    "def ": 31,
+    "python": 4,
+    "lambda": 5,
+    "print(": 2,
+    "program": 17
+   },
+   "first_line": "\"\"\"A trusted program for Gboard ACT model training.\"\"\"\n\nimport base64\nfrom collections.abc import Ca"
+  },
+  {
+   "in": "2d4384e41a652475d01b47d9a0a29664a7d427afbe704afeee12a6d51183d9d2",
+   "path": "3.2.1.1.5",
+   "kind": "base64",
+   "decoded_bytes": 44189,
+   "marker_hits": {
+    "_MAX_ZCDP": 2,
+    "ZCDP": 2,
+    "import ": 30,
+    "def ": 31,
+    "python": 4,
+    "lambda": 5,
+    "print(": 2,
+    "program": 17
+   },
+   "first_line": "\"\"\"A trusted program for Gboard ACT model training.\"\"\"\n\nimport base64\nfrom collections.abc import Ca"
+  },
+  {
+   "in": "2d4384e41a652475d01b47d9a0a29664a7d427afbe704afeee12a6d51183d9d2",
+   "path": "3.2.1.1.5.2",
+   "kind": "base64",
+   "decoded_bytes": 44189,
+   "marker_hits": {
+    "_MAX_ZCDP": 2,
+    "ZCDP": 2,
+    "import ": 30,
+    "def ": 31,
+    "python": 4,
+    "lambda": 5,
+    "print(": 2,
+    "program": 17
+   },
+   "first_line": "\"\"\"A trusted program for Gboard ACT model training.\"\"\"\n\nimport base64\nfrom collections.abc import Ca"
+  },
+  {
+   "in": "2d4384e41a652475d01b47d9a0a29664a7d427afbe704afeee12a6d51183d9d2",
+   "path": "3.2.1.1.5.2.1",
+   "kind": "base64",
+   "decoded_bytes": 44189,
+   "marker_hits": {
+    "_MAX_ZCDP": 2,
+    "ZCDP": 2,
+    "import ": 30,
+    "def ": 31,
+    "python": 4,
+    "lambda": 5,
+    "print(": 2,
+    "program": 17
+   },
+   "first_line": "\"\"\"A trusted program for Gboard ACT model training.\"\"\"\n\nimport base64\nfrom collections.abc import Ca"
+  },
+  {
+   "in": "2d4384e41a652475d01b47d9a0a29664a7d427afbe704afeee12a6d51183d9d2",
+   "path": "3.2.1.1.5",
+   "kind": "base64",
+   "decoded_bytes": 44189,
+   "marker_hits": {
+    "_MAX_ZCDP": 2,
+    "ZCDP": 2,
+    "import ": 30,
+    "def ": 31,
+    "python": 4,
+    "lambda": 5,
+    "print(": 2,
+    "program": 17
+   },
+   "first_line": "\"\"\"A trusted program for Gboard ACT model training.\"\"\"\n\nimport base64\nfrom collections.abc import Ca"
+  },
+  {
+   "in": "2d4384e41a652475d01b47d9a0a29664a7d427afbe704afeee12a6d51183d9d2",
+   "path": "3.2.1.1.5.2",
+   "kind": "base64",
+   "decoded_bytes": 44189,
+   "marker_hits": {
+    "_MAX_ZCDP": 2,
+    "ZCDP": 2,
+    "import ": 30,
+    "def ": 31,
+    "python": 4,
+    "lambda": 5,
+    "print(": 2,
+    "program": 17
+   },
+   "first_line": "\"\"\"A trusted program for Gboard ACT model training.\"\"\"\n\nimport base64\nfrom collections.abc import Ca"
+  },
+  {
+   "in": "2d4384e41a652475d01b47d9a0a29664a7d427afbe704afeee12a6d51183d9d2",
+   "path": "3.2.1.1.5.2.1",
+   "kind": "base64",
+   "decoded_bytes": 44189,
+   "marker_hits": {
+    "_MAX_ZCDP": 2,
+    "ZCDP": 2,
+    "import ": 30,
+    "def ": 31,
+    "python": 4,
+    "lambda": 5,
+    "print(": 2,
+    "program": 17
+   },
+   "first_line": "\"\"\"A trusted program for Gboard ACT model training.\"\"\"\n\nimport base64\nfrom collections.abc import Ca"
+  },
+  {
+   "in": "33ef45b5c51ded824d2f43aab3f4f6bee32813620056b7124044190b1ffeff2e",
+   "path": "3.2.1.1.5",
+   "kind": "base64",
+   "decoded_bytes": 32314,
+   "marker_hits": {
+    "_MAX_ZCDP": 2,
+    "ZCDP": 2,
+    "import ": 27,
+    "def ": 27,
+    "python": 4,
+    "lambda": 2,
+    "print(": 2,
+    "program": 17
+   },
+   "first_line": "\"\"\"A trusted program for Gboard HMM SentencePiece model training.\"\"\"\n\nfrom collections.abc import Ca"
+  },
+  {
+   "in": "33ef45b5c51ded824d2f43aab3f4f6bee32813620056b7124044190b1ffeff2e",
+   "path": "3.2.1.1.5.2",
+   "kind": "base64",
+   "decoded_bytes": 32314,
+   "marker_hits": {
+    "_MAX_ZCDP": 2,
+    "ZCDP": 2,
+    "import ": 27,
+    "def ": 27,
+    "python": 4,
+    "lambda": 2,
+    "print(": 2,
+    "program": 17
+   },
+   "first_line": "\"\"\"A trusted program for Gboard HMM SentencePiece model training.\"\"\"\n\nfrom collections.abc import Ca"
+  },
+  {
+   "in": "33ef45b5c51ded824d2f43aab3f4f6bee32813620056b7124044190b1ffeff2e",
+   "path": "3.2.1.1.5.2.1",
+   "kind": "base64",
+   "decoded_bytes": 32314,
+   "marker_hits": {
+    "_MAX_ZCDP": 2,
+    "ZCDP": 2,
+    "import ": 27,
+    "def ": 27,
+    "python": 4,
+    "lambda": 2,
+    "print(": 2,
+    "program": 17
+   },
+   "first_line": "\"\"\"A trusted program for Gboard HMM SentencePiece model training.\"\"\"\n\nfrom collections.abc import Ca"
+  },
+  {
+   "in": "9a877855e0ae6613fa9b7b23decabafb6f744dc55c78cc053a6265b607939fb4",
+   "path": "3.2.1.1.5",
+   "kind": "base64",
+   "decoded_bytes": 32314,
+   "marker_hits": {
+    "_MAX_ZCDP": 2,
+    "ZCDP": 2,
+    "import ": 27,
+    "def ": 27,
+    "python": 4,
+    "lambda": 2,
+    "print(": 2,
+    "program": 17
+   },
+   "first_line": "\"\"\"A trusted program for Gboard HMM SentencePiece model training.\"\"\"\n\nfrom collections.abc import Ca"
+  },
+  {
+   "in": "9a877855e0ae6613fa9b7b23decabafb6f744dc55c78cc053a6265b607939fb4",
+   "path": "3.2.1.1.5.2",
+   "kind": "base64",
+   "decoded_bytes": 32314,
+   "marker_hits": {
+    "_MAX_ZCDP": 2,
+    "ZCDP": 2,
+    "import ": 27,
+    "def ": 27,
+    "python": 4,
+    "lambda": 2,
+    "print(": 2,
+    "program": 17
+   },
+   "first_line": "\"\"\"A trusted program for Gboard HMM SentencePiece model training.\"\"\"\n\nfrom collections.abc import Ca"
+  },
+  {
+   "in": "9a877855e0ae6613fa9b7b23decabafb6f744dc55c78cc053a6265b607939fb4",
+   "path": "3.2.1.1.5.2.1",
+   "kind": "base64",
+   "decoded_bytes": 32314,
+   "marker_hits": {
+    "_MAX_ZCDP": 2,
+    "ZCDP": 2,
+    "import ": 27,
+    "def ": 27,
+    "python": 4,
+    "lambda": 2,
+    "print(": 2,
+    "program": 17
+   },
+   "first_line": "\"\"\"A trusted program for Gboard HMM SentencePiece model training.\"\"\"\n\nfrom collections.abc import Ca"
+  },
+  {
+   "in": "cedd37998850fe98adfe517b7747735fdb9510df80b31ada1c2e15b21c02a614",
+   "path": "3.2.1.1.5",
+   "kind": "base64",
+   "decoded_bytes": 44189,
+   "marker_hits": {
+    "_MAX_ZCDP": 2,
+    "ZCDP": 2,
+    "import ": 30,
+    "def ": 31,
+    "python": 4,
+    "lambda": 5,
+    "print(": 2,
+    "program": 17
+   },
+   "first_line": "\"\"\"A trusted program for Gboard ACT model training.\"\"\"\n\nimport base64\nfrom collections.abc import Ca"
+  },
+  {
+   "in": "cedd37998850fe98adfe517b7747735fdb9510df80b31ada1c2e15b21c02a614",
+   "path": "3.2.1.1.5.2",
+   "kind": "base64",
+   "decoded_bytes": 44189,
+   "marker_hits": {
+    "_MAX_ZCDP": 2,
+    "ZCDP": 2,
+    "import ": 30,
+    "def ": 31,
+    "python": 4,
+    "lambda": 5,
+    "print(": 2,
+    "program": 17
+   },
+   "first_line": "\"\"\"A trusted program for Gboard ACT model training.\"\"\"\n\nimport base64\nfrom collections.abc import Ca"
+  },
+  {
+   "in": "cedd37998850fe98adfe517b7747735fdb9510df80b31ada1c2e15b21c02a614",
+   "path": "3.2.1.1.5.2.1",
+   "kind": "base64",
+   "decoded_bytes": 44189,
+   "marker_hits": {
+    "_MAX_ZCDP": 2,
+    "ZCDP": 2,
+    "import ": 30,
+    "def ": 31,
+    "python": 4,
+    "lambda": 5,
+    "print(": 2,
+    "program": 17
+   },
+   "first_line": "\"\"\"A trusted program for Gboard ACT model training.\"\"\"\n\nimport base64\nfrom collections.abc import Ca"
+  },
+  {
+   "in": "cedd37998850fe98adfe517b7747735fdb9510df80b31ada1c2e15b21c02a614",
+   "path": "3.2.1.1.5",
+   "kind": "base64",
+   "decoded_bytes": 44189,
+   "marker_hits": {
+    "_MAX_ZCDP": 2,
+    "ZCDP": 2,
+    "import ": 30,
+    "def ": 31,
+    "python": 4,
+    "lambda": 5,
+    "print(": 2,
+    "program": 17
+   },
+   "first_line": "\"\"\"A trusted program for Gboard ACT model training.\"\"\"\n\nimport base64\nfrom collections.abc import Ca"
+  },
+  {
+   "in": "cedd37998850fe98adfe517b7747735fdb9510df80b31ada1c2e15b21c02a614",
+   "path": "3.2.1.1.5.2",
+   "kind": "base64",
+   "decoded_bytes": 44189,
+   "marker_hits": {
+    "_MAX_ZCDP": 2,
+    "ZCDP": 2,
+    "import ": 30,
+    "def ": 31,
+    "python": 4,
+    "lambda": 5,
+    "print(": 2,
+    "program": 17
+   },
+   "first_line": "\"\"\"A trusted program for Gboard ACT model training.\"\"\"\n\nimport base64\nfrom collections.abc import Ca"
+  },
+  {
+   "in": "cedd37998850fe98adfe517b7747735fdb9510df80b31ada1c2e15b21c02a614",
+   "path": "3.2.1.1.5.2.1",
+   "kind": "base64",
+   "decoded_bytes": 44189,
+   "marker_hits": {
+    "_MAX_ZCDP": 2,
+    "ZCDP": 2,
+    "import ": 30,
+    "def ": 31,
+    "python": 4,
+    "lambda": 5,
+    "print(": 2,
+    "program": 17
+   },
+   "first_line": "\"\"\"A trusted program for Gboard ACT model training.\"\"\"\n\nimport base64\nfrom collections.abc import Ca"
+  },
+  {
+   "in": "cedd37998850fe98adfe517b7747735fdb9510df80b31ada1c2e15b21c02a614",
+   "path": "3.2.1.1.5",
+   "kind": "base64",
+   "decoded_bytes": 44189,
+   "marker_hits": {
+    "_MAX_ZCDP": 2,
+    "ZCDP": 2,
+    "import ": 30,
+    "def ": 31,
+    "python": 4,
+    "lambda": 5,
+    "print(": 2,
+    "program": 17
+   },
+   "first_line": "\"\"\"A trusted program for Gboard ACT model training.\"\"\"\n\nimport base64\nfrom collections.abc import Ca"
+  },
+  {
+   "in": "cedd37998850fe98adfe517b7747735fdb9510df80b31ada1c2e15b21c02a614",
+   "path": "3.2.1.1.5.2",
+   "kind": "base64",
+   "decoded_bytes": 44189,
+   "marker_hits": {
+    "_MAX_ZCDP": 2,
+    "ZCDP": 2,
+    "import ": 30,
+    "def ": 31,
+    "python": 4,
+    "lambda": 5,
+    "print(": 2,
+    "program": 17
+   },
+   "first_line": "\"\"\"A trusted program for Gboard ACT model training.\"\"\"\n\nimport base64\nfrom collections.abc import Ca"
+  },
+  {
+   "in": "cedd37998850fe98adfe517b7747735fdb9510df80b31ada1c2e15b21c02a614",
+   "path": "3.2.1.1.5.2.1",
+   "kind": "base64",
+   "decoded_bytes": 44189,
+   "marker_hits": {
+    "_MAX_ZCDP": 2,
+    "ZCDP": 2,
+    "import ": 30,
+    "def ": 31,
+    "python": 4,
+    "lambda": 5,
+    "print(": 2,
+    "program": 17
+   },
+   "first_line": "\"\"\"A trusted program for Gboard ACT model training.\"\"\"\n\nimport base64\nfrom collections.abc import Ca"
+  },
+  {
+   "in": "cedd37998850fe98adfe517b7747735fdb9510df80b31ada1c2e15b21c02a614",
+   "path": "3.2.1.1.5",
+   "kind": "base64",
+   "decoded_bytes": 44189,
+   "marker_hits": {
+    "_MAX_ZCDP": 2,
+    "ZCDP": 2,
+    "import ": 30,
+    "def ": 31,
+    "python": 4,
+    "lambda": 5,
+    "print(": 2,
+    "program": 17
+   },
+   "first_line": "\"\"\"A trusted program for Gboard ACT model training.\"\"\"\n\nimport base64\nfrom collections.abc import Ca"
+  },
+  {
+   "in": "cedd37998850fe98adfe517b7747735fdb9510df80b31ada1c2e15b21c02a614",
+   "path": "3.2.1.1.5.2",
+   "kind": "base64",
+   "decoded_bytes": 44189,
+   "marker_hits": {
+    "_MAX_ZCDP": 2,
+    "ZCDP": 2,
+    "import ": 30,
+    "def ": 31,
+    "python": 4,
+    "lambda": 5,
+    "print(": 2,
+    "program": 17
+   },
+   "first_line": "\"\"\"A trusted program for Gboard ACT model training.\"\"\"\n\nimport base64\nfrom collections.abc import Ca"
+  },
+  {
+   "in": "cedd37998850fe98adfe517b7747735fdb9510df80b31ada1c2e15b21c02a614",
+   "path": "3.2.1.1.5.2.1",
+   "kind": "base64",
+   "decoded_bytes": 44189,
+   "marker_hits": {
+    "_MAX_ZCDP": 2,
+    "ZCDP": 2,
+    "import ": 30,
+    "def ": 31,
+    "python": 4,
+    "lambda": 5,
+    "print(": 2,
+    "program": 17
+   },
+   "first_line": "\"\"\"A trusted program for Gboard ACT model training.\"\"\"\n\nimport base64\nfrom collections.abc import Ca"
+  },
+  {
+   "in": "cedd37998850fe98adfe517b7747735fdb9510df80b31ada1c2e15b21c02a614",
+   "path": "3.2.1.1.5",
+   "kind": "base64",
+   "decoded_bytes": 44189,
+   "marker_hits": {
+    "_MAX_ZCDP": 2,
+    "ZCDP": 2,
+    "import ": 30,
+    "def ": 31,
+    "python": 4,
+    "lambda": 5,
+    "print(": 2,
+    "program": 17
+   },
+   "first_line": "\"\"\"A trusted program for Gboard ACT model training.\"\"\"\n\nimport base64\nfrom collections.abc import Ca"
+  },
+  {
+   "in": "cedd37998850fe98adfe517b7747735fdb9510df80b31ada1c2e15b21c02a614",
+   "path": "3.2.1.1.5.2",
+   "kind": "base64",
+   "decoded_bytes": 44189,
+   "marker_hits": {
+    "_MAX_ZCDP": 2,
+    "ZCDP": 2,
+    "import ": 30,
+    "def ": 31,
+    "python": 4,
+    "lambda": 5,
+    "print(": 2,
+    "program": 17
+   },
+   "first_line": "\"\"\"A trusted program for Gboard ACT model training.\"\"\"\n\nimport base64\nfrom collections.abc import Ca"
+  },
+  {
+   "in": "cedd37998850fe98adfe517b7747735fdb9510df80b31ada1c2e15b21c02a614",
+   "path": "3.2.1.1.5.2.1",
+   "kind": "base64",
+   "decoded_bytes": 44189,
+   "marker_hits": {
+    "_MAX_ZCDP": 2,
+    "ZCDP": 2,
+    "import ": 30,
+    "def ": 31,
+    "python": 4,
+    "lambda": 5,
+    "print(": 2,
+    "program": 17
+   },
+   "first_line": "\"\"\"A trusted program for Gboard ACT model training.\"\"\"\n\nimport base64\nfrom collections.abc import Ca"
+  },
+  {
+   "in": "cedd37998850fe98adfe517b7747735fdb9510df80b31ada1c2e15b21c02a614",
+   "path": "3.2.1.1.5",
+   "kind": "base64",
+   "decoded_bytes": 44189,
+   "marker_hits": {
+    "_MAX_ZCDP": 2,
+    "ZCDP": 2,
+    "import ": 30,
+    "def ": 31,
+    "python": 4,
+    "lambda": 5,
+    "print(": 2,
+    "program": 17
+   },
+   "first_line": "\"\"\"A trusted program for Gboard ACT model training.\"\"\"\n\nimport base64\nfrom collections.abc import Ca"
+  },
+  {
+   "in": "cedd37998850fe98adfe517b7747735fdb9510df80b31ada1c2e15b21c02a614",
+   "path": "3.2.1.1.5.2",
+   "kind": "base64",
+   "decoded_bytes": 44189,
+   "marker_hits": {
+    "_MAX_ZCDP": 2,
+    "ZCDP": 2,
+    "import ": 30,
+    "def ": 31,
+    "python": 4,
+    "lambda": 5,
+    "print(": 2,
+    "program": 17
+   },
+   "first_line": "\"\"\"A trusted program for Gboard ACT model training.\"\"\"\n\nimport base64\nfrom collections.abc import Ca"
+  },
+  {
+   "in": "cedd37998850fe98adfe517b7747735fdb9510df80b31ada1c2e15b21c02a614",
+   "path": "3.2.1.1.5.2.1",
+   "kind": "base64",
+   "decoded_bytes": 44189,
+   "marker_hits": {
+    "_MAX_ZCDP": 2,
+    "ZCDP": 2,
+    "import ": 30,
+    "def ": 31,
+    "python": 4,
+    "lambda": 5,
+    "print(": 2,
+    "program": 17
+   },
+   "first_line": "\"\"\"A trusted program for Gboard ACT model training.\"\"\"\n\nimport base64\nfrom collections.abc import Ca"
+  },
+  {
+   "in": "f8a4dc99d473c836c80b501815979f9cae69b3f91f29adfa7df587ab86027d1a",
+   "path": "3.2.1.1.5.2.1",
+   "kind": "base64",
+   "decoded_bytes": 10676,
+   "marker_hits": {
+    "_MAX_ZCDP": 2,
+    "ZCDP": 7,
+    "import ": 9,
+    "def ": 3,
+    "program": 3
+   },
+   "first_line": "\"\"\"TEE-hosted DP synthetic data generation for AGSA / OmniEnt (Circle-to-Search).\n\nPrototype migrati"
+  }
+ ]
+}

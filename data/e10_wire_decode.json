@@ -1,0 +1,1933 @@
+{
+ "payload_stats": {
+  "2bb537ad": {
+   "label": "Private Compute Services policy",
+   "entries": 409718,
+   "attempted": 30,
+   "served": 18,
+   "http400": 0,
+   "hash_ok": 18,
+   "json": 9,
+   "binary": 9
+  },
+  "3ebd2cd4": {
+   "label": "Gboard policy 1",
+   "entries": 30878,
+   "attempted": 31,
+   "served": 21,
+   "http400": 1,
+   "hash_ok": 21,
+   "json": 12,
+   "binary": 9
+  },
+  "49140964": {
+   "label": "Gboard policy 2",
+   "entries": 8,
+   "attempted": 8,
+   "served": 0,
+   "http400": 4,
+   "hash_ok": 0,
+   "json": 0,
+   "binary": 0
+  },
+  "4d41c79b": {
+   "label": "Google App policy",
+   "entries": 12051,
+   "attempted": 30,
+   "served": 23,
+   "http400": 0,
+   "hash_ok": 23,
+   "json": 13,
+   "binary": 10
+  },
+  "5aac231c": {
+   "label": "Recorder policy",
+   "entries": 52049,
+   "attempted": 30,
+   "served": 21,
+   "http400": 0,
+   "hash_ok": 21,
+   "json": 14,
+   "binary": 7
+  },
+  "ee9911ad": {
+   "label": "Pixel Search policy",
+   "entries": 4607,
+   "attempted": 30,
+   "served": 20,
+   "http400": 0,
+   "hash_ok": 20,
+   "json": 11,
+   "binary": 9
+  }
+ },
+ "distinct_artifacts": 40,
+ "artifacts": [
+  {
+   "digest": "009a25011c25fbdd076e23c0b21eadbbfc3a062aae9f42804cc27c99c20dc14a",
+   "http": 200,
+   "keys": [
+    "Recorder policy"
+   ],
+   "size": 24444,
+   "hash_ok": true,
+   "marker_hits_whole": {},
+   "magic_whole": [],
+   "fields_total": 957,
+   "len_fields": 890,
+   "max_depth": 13,
+   "marker_hits_fields": {},
+   "magic_fields": [],
+   "b64_rescan_hits": {},
+   "big_opaque_fields": [
+    [
+     24440,
+     7.79,
+     "3"
+    ],
+    [
+     24370,
+     7.8,
+     "3.2"
+    ],
+    [
+     2715,
+     7.79,
+     "3.2.1"
+    ],
+    [
+     2715,
+     7.79,
+     "3.2.1"
+    ],
+    [
+     2715,
+     7.79,
+     "3.2.1"
+    ]
+   ]
+  },
+  {
+   "digest": "082d5aaabdff21fe93d210010a01df4689c6cec19cdf47a4e7b0e992222257e1",
+   "http": 200,
+   "keys": [
+    "Private Compute Services policy"
+   ],
+   "size": 98144,
+   "hash_ok": true,
+   "marker_hits_whole": {},
+   "magic_whole": [],
+   "fields_total": 3828,
+   "len_fields": 3576,
+   "max_depth": 13,
+   "marker_hits_fields": {},
+   "magic_fields": [],
+   "b64_rescan_hits": {},
+   "big_opaque_fields": [
+    [
+     24532,
+     7.84,
+     "3"
+    ],
+    [
+     24532,
+     7.84,
+     "3"
+    ],
+    [
+     24532,
+     7.84,
+     "3"
+    ],
+    [
+     24532,
+     7.84,
+     "3"
+    ],
+    [
+     24462,
+     7.84,
+     "3.2"
+    ]
+   ]
+  },
+  {
+   "digest": "0fe929355e21f331b5b579958cde4c6c22ee4c784c975923ed6da3c4f85fc05e",
+   "http": 200,
+   "keys": [
+    "Recorder policy"
+   ],
+   "size": 43636,
+   "hash_ok": true,
+   "marker_hits_whole": {},
+   "magic_whole": [],
+   "fields_total": 1702,
+   "len_fields": 1590,
+   "max_depth": 13,
+   "marker_hits_fields": {},
+   "magic_fields": [],
+   "b64_rescan_hits": {},
+   "big_opaque_fields": [
+    [
+     21814,
+     7.83,
+     "3"
+    ],
+    [
+     21814,
+     7.83,
+     "3"
+    ],
+    [
+     21744,
+     7.83,
+     "3.2"
+    ],
+    [
+     21744,
+     7.83,
+     "3.2"
+    ],
+    [
+     2715,
+     7.8,
+     "3.2.1"
+    ]
+   ]
+  },
+  {
+   "digest": "1670b02a100b8466b6e12988600d665ec831371d6a69d0ba102c6ced77c9af17",
+   "http": 200,
+   "keys": [
+    "Gboard policy 1"
+   ],
+   "size": 107938,
+   "hash_ok": true,
+   "marker_hits_whole": {},
+   "magic_whole": [],
+   "fields_total": 4193,
+   "len_fields": 3909,
+   "max_depth": 13,
+   "marker_hits_fields": {},
+   "magic_fields": [],
+   "b64_rescan_hits": {},
+   "big_opaque_fields": [
+    [
+     107934,
+     7.8,
+     "3"
+    ],
+    [
+     107864,
+     7.8,
+     "3.2"
+    ],
+    [
+     5430,
+     7.8,
+     "3.2.1"
+    ],
+    [
+     5430,
+     7.8,
+     "3.2.1"
+    ],
+    [
+     5430,
+     7.8,
+     "3.2.1"
+    ]
+   ]
+  },
+  {
+   "digest": "1b17525c49d87fd0270f3859ae257e354e6eee8f27b72e4f7efde3b929876a13",
+   "http": 200,
+   "keys": [
+    "Pixel Search policy"
+   ],
+   "size": 57231,
+   "hash_ok": true,
+   "marker_hits_whole": {},
+   "magic_whole": [],
+   "fields_total": 2244,
+   "len_fields": 2085,
+   "max_depth": 13,
+   "marker_hits_fields": {},
+   "magic_fields": [],
+   "b64_rescan_hits": {},
+   "big_opaque_fields": [
+    [
+     19073,
+     7.82,
+     "3"
+    ],
+    [
+     19073,
+     7.82,
+     "3"
+    ],
+    [
+     19073,
+     7.82,
+     "3"
+    ],
+    [
+     19003,
+     7.82,
+     "3.2"
+    ],
+    [
+     19003,
+     7.82,
+     "3.2"
+    ]
+   ]
+  },
+  {
+   "digest": "1d2454762dcaf0c357d76011afdd180e6ac3cef70e340a48c7e1c7ad1123af8e",
+   "http": 200,
+   "keys": [
+    "Recorder policy"
+   ],
+   "size": 8226,
+   "hash_ok": true,
+   "marker_hits_whole": {},
+   "magic_whole": [],
+   "fields_total": 321,
+   "len_fields": 300,
+   "max_depth": 13,
+   "marker_hits_fields": {},
+   "magic_fields": [],
+   "b64_rescan_hits": {},
+   "big_opaque_fields": [
+    [
+     8223,
+     7.82,
+     "3"
+    ],
+    [
+     8154,
+     7.83,
+     "3.2"
+    ],
+    [
+     2715,
+     7.8,
+     "3.2.1"
+    ],
+    [
+     2715,
+     7.8,
+     "3.2.1"
+    ],
+    [
+     2715,
+     7.79,
+     "3.2.1"
+    ]
+   ]
+  },
+  {
+   "digest": "206cf2a4bac0df41b6ac4d34de5097c6e256b82fc267bfa25b071abc0acb338b",
+   "http": 200,
+   "keys": [
+    "Private Compute Services policy"
+   ],
+   "size": 146976,
+   "hash_ok": true,
+   "marker_hits_whole": {},
+   "magic_whole": [],
+   "fields_total": 5742,
+   "len_fields": 5364,
+   "max_depth": 13,
+   "marker_hits_fields": {},
+   "magic_fields": [],
+   "b64_rescan_hits": {},
+   "big_opaque_fields": [
+    [
+     24492,
+     7.84,
+     "3"
+    ],
+    [
+     24492,
+     7.84,
+     "3"
+    ],
+    [
+     24492,
+     7.84,
+     "3"
+    ],
+    [
+     24492,
+     7.84,
+     "3"
+    ],
+    [
+     24492,
+     7.84,
+     "3"
+    ]
+   ]
+  },
+  {
+   "digest": "25e47d3b6d8d959e7968ee749eb9347823e743f128c4cb950588832442fc20ad",
+   "http": 200,
+   "keys": [
+    "Private Compute Services policy"
+   ],
+   "size": 171900,
+   "hash_ok": true,
+   "marker_hits_whole": {},
+   "magic_whole": [],
+   "fields_total": 6705,
+   "len_fields": 6264,
+   "max_depth": 13,
+   "marker_hits_fields": {},
+   "magic_fields": [],
+   "b64_rescan_hits": {},
+   "big_opaque_fields": [
+    [
+     19096,
+     7.84,
+     "3"
+    ],
+    [
+     19096,
+     7.84,
+     "3"
+    ],
+    [
+     19096,
+     7.84,
+     "3"
+    ],
+    [
+     19096,
+     7.84,
+     "3"
+    ],
+    [
+     19096,
+     7.84,
+     "3"
+    ]
+   ]
+  },
+  {
+   "digest": "33ef45b5c51ded824d2f43aab3f4f6bee32813620056b7124044190b1ffeff2e",
+   "http": 200,
+   "keys": [
+    "Gboard policy 1"
+   ],
+   "size": 49166,
+   "hash_ok": true,
+   "marker_hits_whole": {},
+   "magic_whole": [],
+   "fields_total": 104,
+   "len_fields": 101,
+   "max_depth": 13,
+   "marker_hits_fields": {},
+   "magic_fields": [],
+   "b64_rescan_hits": {
+    "3.2.1.1.5": {
+     "_MAX_ZCDP": 2,
+     "ZCDP": 2,
+     "import ": 27,
+     "def ": 27,
+     "python": 4,
+     "lambda": 2,
+     "print(": 2,
+     "program": 17
+    },
+    "3.2.1.1.5.2": {
+     "_MAX_ZCDP": 2,
+     "ZCDP": 2,
+     "import ": 27,
+     "def ": 27,
+     "python": 4,
+     "lambda": 2,
+     "print(": 2,
+     "program": 17
+    },
+    "3.2.1.1.5.2.1": {
+     "_MAX_ZCDP": 2,
+     "ZCDP": 2,
+     "import ": 27,
+     "def ": 27,
+     "python": 4,
+     "lambda": 2,
+     "print(": 2,
+     "program": 17
+    }
+   },
+   "big_opaque_fields": [
+    [
+     2525,
+     7.82,
+     "3.2.1.1.2"
+    ],
+    [
+     2522,
+     7.82,
+     "3.2.1.1.2.2"
+    ],
+    [
+     2519,
+     7.81,
+     "3.2.1.1.2.2.2"
+    ],
+    [
+     1451,
+     7.72,
+     "3.2.1.1.2.2.2.2"
+    ]
+   ]
+  },
+  {
+   "digest": "34126340a12c521fa57b467bb3d91639b52e76f7e5940a65c36d56666974e2d0",
+   "http": 200,
+   "keys": [
+    "Recorder policy"
+   ],
+   "size": 19100,
+   "hash_ok": true,
+   "marker_hits_whole": {},
+   "magic_whole": [],
+   "fields_total": 745,
+   "len_fields": 696,
+   "max_depth": 13,
+   "marker_hits_fields": {},
+   "magic_fields": [],
+   "b64_rescan_hits": {},
+   "big_opaque_fields": [
+    [
+     19096,
+     7.83,
+     "3"
+    ],
+    [
+     19026,
+     7.83,
+     "3.2"
+    ],
+    [
+     2715,
+     7.8,
+     "3.2.1"
+    ],
+    [
+     2715,
+     7.8,
+     "3.2.1"
+    ],
+    [
+     2715,
+     7.8,
+     "3.2.1"
+    ]
+   ]
+  },
+  {
+   "digest": "3797de999f3d5a70696dad49cc7b4c4b3b134c0bf7794a4a9a202a9028175d5d",
+   "http": 200,
+   "keys": [
+    "Pixel Search policy"
+   ],
+   "size": 57231,
+   "hash_ok": true,
+   "marker_hits_whole": {},
+   "magic_whole": [
+    "zlib"
+   ],
+   "fields_total": 2232,
+   "len_fields": 2085,
+   "max_depth": 13,
+   "marker_hits_fields": {},
+   "magic_fields": [
+    "zlib"
+   ],
+   "b64_rescan_hits": {},
+   "big_opaque_fields": [
+    [
+     19073,
+     7.82,
+     "3"
+    ],
+    [
+     19073,
+     7.82,
+     "3"
+    ],
+    [
+     19073,
+     7.82,
+     "3"
+    ],
+    [
+     19003,
+     7.82,
+     "3.2"
+    ],
+    [
+     19003,
+     7.82,
+     "3.2"
+    ]
+   ]
+  },
+  {
+   "digest": "39b874397c815259823b2c59a1b6d3911329d73a833e154ce477dd1d1d1cb04f",
+   "http": 200,
+   "keys": [
+    "Private Compute Services policy"
+   ],
+   "size": 171180,
+   "hash_ok": true,
+   "marker_hits_whole": {},
+   "magic_whole": [],
+   "fields_total": 6705,
+   "len_fields": 6264,
+   "max_depth": 13,
+   "marker_hits_fields": {},
+   "magic_fields": [],
+   "b64_rescan_hits": {},
+   "big_opaque_fields": [
+    [
+     19016,
+     7.83,
+     "3"
+    ],
+    [
+     19016,
+     7.83,
+     "3"
+    ],
+    [
+     19016,
+     7.83,
+     "3"
+    ],
+    [
+     19016,
+     7.83,
+     "3"
+    ],
+    [
+     19016,
+     7.83,
+     "3"
+    ]
+   ]
+  },
+  {
+   "digest": "3ea2cc55da15069b4ad80c9cb91e68b390644444827d68841231176d74671261",
+   "http": 200,
+   "keys": [
+    "Private Compute Services policy"
+   ],
+   "size": 87088,
+   "hash_ok": true,
+   "marker_hits_whole": {},
+   "magic_whole": [],
+   "fields_total": 3412,
+   "len_fields": 3172,
+   "max_depth": 13,
+   "marker_hits_fields": {},
+   "magic_fields": [],
+   "b64_rescan_hits": {},
+   "big_opaque_fields": [
+    [
+     21768,
+     7.81,
+     "3"
+    ],
+    [
+     21768,
+     7.81,
+     "3"
+    ],
+    [
+     21768,
+     7.81,
+     "3"
+    ],
+    [
+     21768,
+     7.81,
+     "3"
+    ],
+    [
+     21698,
+     7.81,
+     "3.2"
+    ]
+   ]
+  },
+  {
+   "digest": "40a61979759c0ed011b4ddd9b781d41aa9118cfc5ba9525a88e993a935198e96",
+   "http": 200,
+   "keys": [
+    "Recorder policy"
+   ],
+   "size": 27116,
+   "hash_ok": true,
+   "marker_hits_whole": {},
+   "magic_whole": [],
+   "fields_total": 1061,
+   "len_fields": 987,
+   "max_depth": 13,
+   "marker_hits_fields": {},
+   "magic_fields": [],
+   "b64_rescan_hits": {},
+   "big_opaque_fields": [
+    [
+     27112,
+     7.8,
+     "3"
+    ],
+    [
+     27042,
+     7.8,
+     "3.2"
+    ],
+    [
+     2715,
+     7.79,
+     "3.2.1"
+    ],
+    [
+     2715,
+     7.79,
+     "3.2.1"
+    ],
+    [
+     2715,
+     7.79,
+     "3.2.1"
+    ]
+   ]
+  },
+  {
+   "digest": "40de4e409f05dddc1798ed45d8aa7efa067c1ceda3925a6ca691d93934f63a2b",
+   "http": 200,
+   "keys": [
+    "Google App policy"
+   ],
+   "size": 190770,
+   "hash_ok": true,
+   "marker_hits_whole": {},
+   "magic_whole": [],
+   "fields_total": 7480,
+   "len_fields": 6950,
+   "max_depth": 13,
+   "marker_hits_fields": {},
+   "magic_fields": [],
+   "b64_rescan_hits": {},
+   "big_opaque_fields": [
+    [
+     19073,
+     7.81,
+     "3"
+    ],
+    [
+     19073,
+     7.81,
+     "3"
+    ],
+    [
+     19073,
+     7.81,
+     "3"
+    ],
+    [
+     19073,
+     7.81,
+     "3"
+    ],
+    [
+     19073,
+     7.81,
+     "3"
+    ]
+   ]
+  },
+  {
+   "digest": "436d15c6ea37b1302bb26c8b5b93693531596fc5e4598d9b22d380725dc1aac9",
+   "http": 200,
+   "keys": [
+    "Google App policy"
+   ],
+   "size": 217490,
+   "hash_ok": true,
+   "marker_hits_whole": {},
+   "magic_whole": [],
+   "fields_total": 8520,
+   "len_fields": 7920,
+   "max_depth": 13,
+   "marker_hits_fields": {},
+   "magic_fields": [],
+   "b64_rescan_hits": {},
+   "big_opaque_fields": [
+    [
+     21745,
+     7.8,
+     "3"
+    ],
+    [
+     21745,
+     7.8,
+     "3"
+    ],
+    [
+     21745,
+     7.8,
+     "3"
+    ],
+    [
+     21745,
+     7.8,
+     "3"
+    ],
+    [
+     21745,
+     7.8,
+     "3"
+    ]
+   ]
+  },
+  {
+   "digest": "5b61d0fa5ea7e1d6a06ce3ade696d4bf06f137576f1966e6b90b6961155404a2",
+   "http": 200,
+   "keys": [
+    "Recorder policy"
+   ],
+   "size": 38200,
+   "hash_ok": true,
+   "marker_hits_whole": {},
+   "magic_whole": [],
+   "fields_total": 1490,
+   "len_fields": 1392,
+   "max_depth": 13,
+   "marker_hits_fields": {},
+   "magic_fields": [],
+   "b64_rescan_hits": {},
+   "big_opaque_fields": [
+    [
+     19096,
+     7.83,
+     "3"
+    ],
+    [
+     19096,
+     7.83,
+     "3"
+    ],
+    [
+     19026,
+     7.84,
+     "3.2"
+    ],
+    [
+     19026,
+     7.84,
+     "3.2"
+    ],
+    [
+     2715,
+     7.8,
+     "3.2.1"
+    ]
+   ]
+  },
+  {
+   "digest": "69734f9aa881e7ec2a4e8c068ffe2893c7ba55172f2bc832a7041d119214f17b",
+   "http": 200,
+   "keys": [
+    "Gboard policy 1"
+   ],
+   "size": 27185,
+   "hash_ok": true,
+   "marker_hits_whole": {},
+   "magic_whole": [],
+   "fields_total": 1064,
+   "len_fields": 990,
+   "max_depth": 13,
+   "marker_hits_fields": {},
+   "magic_fields": [],
+   "b64_rescan_hits": {},
+   "big_opaque_fields": [
+    [
+     27181,
+     7.82,
+     "3"
+    ],
+    [
+     27111,
+     7.82,
+     "3.2"
+    ],
+    [
+     2715,
+     7.8,
+     "3.2.1"
+    ],
+    [
+     2715,
+     7.79,
+     "3.2.1"
+    ],
+    [
+     2715,
+     7.79,
+     "3.2.1"
+    ]
+   ]
+  },
+  {
+   "digest": "6c6ba29edf70c2615cd717ddbf628984acbb26f08ca86be9e5dc40379f40e8e6",
+   "http": 200,
+   "keys": [
+    "Google App policy"
+   ],
+   "size": 217030,
+   "hash_ok": true,
+   "marker_hits_whole": {},
+   "magic_whole": [],
+   "fields_total": 8500,
+   "len_fields": 7900,
+   "max_depth": 13,
+   "marker_hits_fields": {},
+   "magic_fields": [],
+   "b64_rescan_hits": {},
+   "big_opaque_fields": [
+    [
+     21699,
+     7.79,
+     "3"
+    ],
+    [
+     21699,
+     7.79,
+     "3"
+    ],
+    [
+     21699,
+     7.79,
+     "3"
+    ],
+    [
+     21699,
+     7.79,
+     "3"
+    ],
+    [
+     21699,
+     7.79,
+     "3"
+    ]
+   ]
+  },
+  {
+   "digest": "756f6abd97bd8c359f2ac55b3d19bdf2c42eaa9e50261bd073fed1e416b785ac",
+   "http": 200,
+   "keys": [
+    "Private Compute Services policy"
+   ],
+   "size": 65385,
+   "hash_ok": true,
+   "marker_hits_whole": {},
+   "magic_whole": [
+    "zlib"
+   ],
+   "fields_total": 2550,
+   "len_fields": 2382,
+   "max_depth": 13,
+   "marker_hits_fields": {},
+   "magic_fields": [
+    "zlib"
+   ],
+   "b64_rescan_hits": {},
+   "big_opaque_fields": [
+    [
+     21791,
+     7.82,
+     "3"
+    ],
+    [
+     21791,
+     7.82,
+     "3"
+    ],
+    [
+     21791,
+     7.82,
+     "3"
+    ],
+    [
+     21721,
+     7.82,
+     "3.2"
+    ],
+    [
+     21721,
+     7.82,
+     "3.2"
+    ]
+   ]
+  },
+  {
+   "digest": "8eceb475975492f96c0974e72a41ce117e05f9a26083fae07ddf6841e504c2bd",
+   "http": 200,
+   "keys": [
+    "Pixel Search policy"
+   ],
+   "size": 65385,
+   "hash_ok": true,
+   "marker_hits_whole": {},
+   "magic_whole": [
+    "zlib"
+   ],
+   "fields_total": 2550,
+   "len_fields": 2382,
+   "max_depth": 13,
+   "marker_hits_fields": {},
+   "magic_fields": [
+    "zlib"
+   ],
+   "b64_rescan_hits": {},
+   "big_opaque_fields": [
+    [
+     21791,
+     7.82,
+     "3"
+    ],
+    [
+     21791,
+     7.82,
+     "3"
+    ],
+    [
+     21791,
+     7.82,
+     "3"
+    ],
+    [
+     21721,
+     7.82,
+     "3.2"
+    ],
+    [
+     21721,
+     7.82,
+     "3.2"
+    ]
+   ]
+  },
+  {
+   "digest": "981fd9121622d6f709bb73fe63cbadf64c53413f9ee826a752e184c974d4e0d5",
+   "http": 200,
+   "keys": [
+    "Pixel Search policy"
+   ],
+   "size": 73263,
+   "hash_ok": true,
+   "marker_hits_whole": {},
+   "magic_whole": [],
+   "fields_total": 2868,
+   "len_fields": 2667,
+   "max_depth": 13,
+   "marker_hits_fields": {},
+   "magic_fields": [],
+   "b64_rescan_hits": {},
+   "big_opaque_fields": [
+    [
+     24417,
+     7.8,
+     "3"
+    ],
+    [
+     24417,
+     7.8,
+     "3"
+    ],
+    [
+     24417,
+     7.8,
+     "3"
+    ],
+    [
+     24347,
+     7.8,
+     "3.2"
+    ],
+    [
+     24347,
+     7.8,
+     "3.2"
+    ]
+   ]
+  },
+  {
+   "digest": "9a877855e0ae6613fa9b7b23decabafb6f744dc55c78cc053a6265b607939fb4",
+   "http": 200,
+   "keys": [
+    "Gboard policy 1"
+   ],
+   "size": 49166,
+   "hash_ok": true,
+   "marker_hits_whole": {},
+   "magic_whole": [],
+   "fields_total": 104,
+   "len_fields": 101,
+   "max_depth": 13,
+   "marker_hits_fields": {},
+   "magic_fields": [],
+   "b64_rescan_hits": {
+    "3.2.1.1.5": {
+     "_MAX_ZCDP": 2,
+     "ZCDP": 2,
+     "import ": 27,
+     "def ": 27,
+     "python": 4,
+     "lambda": 2,
+     "print(": 2,
+     "program": 17
+    },
+    "3.2.1.1.5.2": {
+     "_MAX_ZCDP": 2,
+     "ZCDP": 2,
+     "import ": 27,
+     "def ": 27,
+     "python": 4,
+     "lambda": 2,
+     "print(": 2,
+     "program": 17
+    },
+    "3.2.1.1.5.2.1": {
+     "_MAX_ZCDP": 2,
+     "ZCDP": 2,
+     "import ": 27,
+     "def ": 27,
+     "python": 4,
+     "lambda": 2,
+     "print(": 2,
+     "program": 17
+    }
+   },
+   "big_opaque_fields": [
+    [
+     2525,
+     7.82,
+     "3.2.1.1.2"
+    ],
+    [
+     2522,
+     7.82,
+     "3.2.1.1.2.2"
+    ],
+    [
+     2519,
+     7.81,
+     "3.2.1.1.2.2.2"
+    ],
+    [
+     1451,
+     7.72,
+     "3.2.1.1.2.2.2.2"
+    ]
+   ]
+  },
+  {
+   "digest": "ae87f62b6c6b20c9d015bda8c59732e047e764189a42ed691e59de1aade10524",
+   "http": 200,
+   "keys": [
+    "Recorder policy"
+   ],
+   "size": 19100,
+   "hash_ok": true,
+   "marker_hits_whole": {},
+   "magic_whole": [],
+   "fields_total": 745,
+   "len_fields": 696,
+   "max_depth": 13,
+   "marker_hits_fields": {},
+   "magic_fields": [],
+   "b64_rescan_hits": {},
+   "big_opaque_fields": [
+    [
+     19096,
+     7.83,
+     "3"
+    ],
+    [
+     19026,
+     7.84,
+     "3.2"
+    ],
+    [
+     2715,
+     7.8,
+     "3.2.1"
+    ],
+    [
+     2715,
+     7.8,
+     "3.2.1"
+    ],
+    [
+     2715,
+     7.8,
+     "3.2.1"
+    ]
+   ]
+  },
+  {
+   "digest": "b04d9dc2cccf8e3636b7cbbd1b2795eb2fcb73ce56c148772fa405d01661d385",
+   "http": 200,
+   "keys": [
+    "Google App policy"
+   ],
+   "size": 190310,
+   "hash_ok": true,
+   "marker_hits_whole": {},
+   "magic_whole": [],
+   "fields_total": 7460,
+   "len_fields": 6930,
+   "max_depth": 13,
+   "marker_hits_fields": {},
+   "magic_fields": [],
+   "b64_rescan_hits": {},
+   "big_opaque_fields": [
+    [
+     19027,
+     7.8,
+     "3"
+    ],
+    [
+     19027,
+     7.79,
+     "3"
+    ],
+    [
+     19027,
+     7.79,
+     "3"
+    ],
+    [
+     19027,
+     7.79,
+     "3"
+    ],
+    [
+     19027,
+     7.79,
+     "3"
+    ]
+   ]
+  },
+  {
+   "digest": "ba25889d5bd012e3374ea7a0747fc870cd6ff31090d18ae9d8826da8c5455cc2",
+   "http": 200,
+   "keys": [
+    "Gboard policy 1"
+   ],
+   "size": 349650,
+   "hash_ok": true,
+   "marker_hits_whole": {},
+   "magic_whole": [],
+   "fields_total": 13585,
+   "len_fields": 12655,
+   "max_depth": 13,
+   "marker_hits_fields": {},
+   "magic_fields": [],
+   "b64_rescan_hits": {},
+   "big_opaque_fields": [
+    [
+     69926,
+     7.8,
+     "3"
+    ],
+    [
+     69926,
+     7.8,
+     "3"
+    ],
+    [
+     69926,
+     7.8,
+     "3"
+    ],
+    [
+     69926,
+     7.8,
+     "3"
+    ],
+    [
+     69926,
+     7.8,
+     "3"
+    ]
+   ]
+  },
+  {
+   "digest": "c099ddc883151164d77cb5d20a63d4d5191cc0fdd1973fa899c01145273eac73",
+   "http": 200,
+   "keys": [
+    "Private Compute Services policy"
+   ],
+   "size": 23501,
+   "hash_ok": true,
+   "marker_hits_whole": {},
+   "magic_whole": [
+    "zlib"
+   ],
+   "fields_total": 912,
+   "len_fields": 849,
+   "max_depth": 13,
+   "marker_hits_fields": {},
+   "magic_fields": [
+    "zlib"
+   ],
+   "b64_rescan_hits": {},
+   "big_opaque_fields": [
+    [
+     23497,
+     7.81,
+     "3"
+    ],
+    [
+     23427,
+     7.81,
+     "3.2"
+    ],
+    [
+     2600,
+     7.79,
+     "3.2.1"
+    ],
+    [
+     2600,
+     7.78,
+     "3.2.1"
+    ],
+    [
+     2600,
+     7.78,
+     "3.2.1"
+    ]
+   ]
+  },
+  {
+   "digest": "c5c45b8f052f0c675e7b93adb5668525f2740f6792bec0b2f603a057dc20f90d",
+   "http": 200,
+   "keys": [
+    "Recorder policy"
+   ],
+   "size": 19077,
+   "hash_ok": true,
+   "marker_hits_whole": {},
+   "magic_whole": [],
+   "fields_total": 748,
+   "len_fields": 695,
+   "max_depth": 13,
+   "marker_hits_fields": {},
+   "magic_fields": [],
+   "b64_rescan_hits": {},
+   "big_opaque_fields": [
+    [
+     19073,
+     7.81,
+     "3"
+    ],
+    [
+     19003,
+     7.81,
+     "3.2"
+    ],
+    [
+     2715,
+     7.79,
+     "3.2.1"
+    ],
+    [
+     2715,
+     7.79,
+     "3.2.1"
+    ],
+    [
+     2715,
+     7.79,
+     "3.2.1"
+    ]
+   ]
+  },
+  {
+   "digest": "ca7f90e39a751702fa2d005cc0e18dd23d362c3f789c6c8c5bfcf79c35c40e5c",
+   "http": 200,
+   "keys": [
+    "Private Compute Services policy"
+   ],
+   "size": 144434,
+   "hash_ok": true,
+   "marker_hits_whole": {},
+   "magic_whole": [
+    "gzip"
+   ],
+   "fields_total": 5480,
+   "len_fields": 5256,
+   "max_depth": 13,
+   "marker_hits_fields": {},
+   "magic_fields": [
+    "gzip"
+   ],
+   "b64_rescan_hits": {},
+   "big_opaque_fields": [
+    [
+     72213,
+     7.85,
+     "3"
+    ],
+    [
+     72213,
+     7.85,
+     "3"
+    ],
+    [
+     72143,
+     7.85,
+     "3.2"
+    ],
+    [
+     72143,
+     7.85,
+     "3.2"
+    ],
+    [
+     10326,
+     7.83,
+     "3.2.1"
+    ]
+   ]
+  },
+  {
+   "digest": "cedd37998850fe98adfe517b7747735fdb9510df80b31ada1c2e15b21c02a614",
+   "http": 200,
+   "keys": [
+    "Gboard policy 1"
+   ],
+   "size": 389658,
+   "hash_ok": true,
+   "marker_hits_whole": {},
+   "magic_whole": [],
+   "fields_total": 618,
+   "len_fields": 600,
+   "max_depth": 13,
+   "marker_hits_fields": {},
+   "magic_fields": [],
+   "b64_rescan_hits": {
+    "3.2.1.1.5": {
+     "_MAX_ZCDP": 2,
+     "ZCDP": 2,
+     "import ": 30,
+     "def ": 31,
+     "python": 4,
+     "lambda": 5,
+     "print(": 2,
+     "program": 17
+    },
+    "3.2.1.1.5.2": {
+     "_MAX_ZCDP": 2,
+     "ZCDP": 2,
+     "import ": 30,
+     "def ": 31,
+     "python": 4,
+     "lambda": 5,
+     "print(": 2,
+     "program": 17
+    },
+    "3.2.1.1.5.2.1": {
+     "_MAX_ZCDP": 2,
+     "ZCDP": 2,
+     "import ": 30,
+     "def ": 31,
+     "python": 4,
+     "lambda": 5,
+     "print(": 2,
+     "program": 17
+    }
+   },
+   "big_opaque_fields": [
+    [
+     2502,
+     7.81,
+     "3.2.1.1.2"
+    ],
+    [
+     2502,
+     7.81,
+     "3.2.1.1.2"
+    ],
+    [
+     2502,
+     7.81,
+     "3.2.1.1.2"
+    ],
+    [
+     2502,
+     7.81,
+     "3.2.1.1.2"
+    ],
+    [
+     2502,
+     7.81,
+     "3.2.1.1.2"
+    ]
+   ]
+  },
+  {
+   "digest": "d579707f350fbbf90b3463930eddc05593d0b542dc80d20249ff11bf22831784",
+   "http": 200,
+   "keys": [
+    "Gboard policy 1"
+   ],
+   "size": 29972,
+   "hash_ok": true,
+   "marker_hits_whole": {},
+   "magic_whole": [],
+   "fields_total": 1169,
+   "len_fields": 1092,
+   "max_depth": 13,
+   "marker_hits_fields": {},
+   "magic_fields": [],
+   "b64_rescan_hits": {},
+   "big_opaque_fields": [
+    [
+     29968,
+     7.84,
+     "3"
+    ],
+    [
+     29898,
+     7.84,
+     "3.2"
+    ],
+    [
+     2715,
+     7.8,
+     "3.2.1"
+    ],
+    [
+     2715,
+     7.8,
+     "3.2.1"
+    ],
+    [
+     2715,
+     7.8,
+     "3.2.1"
+    ]
+   ]
+  },
+  {
+   "digest": "d9ee410a8cc66e55f6da0bac82e2c513f128837568304c9ab2d1efbb30762ae4",
+   "http": 200,
+   "keys": [
+    "Pixel Search policy"
+   ],
+   "size": 65454,
+   "hash_ok": true,
+   "marker_hits_whole": {},
+   "magic_whole": [],
+   "fields_total": 2553,
+   "len_fields": 2385,
+   "max_depth": 13,
+   "marker_hits_fields": {},
+   "magic_fields": [],
+   "b64_rescan_hits": {},
+   "big_opaque_fields": [
+    [
+     21814,
+     7.83,
+     "3"
+    ],
+    [
+     21814,
+     7.83,
+     "3"
+    ],
+    [
+     21814,
+     7.83,
+     "3"
+    ],
+    [
+     21744,
+     7.83,
+     "3.2"
+    ],
+    [
+     21744,
+     7.83,
+     "3.2"
+    ]
+   ]
+  },
+  {
+   "digest": "dc4d4fcff3030f6206bb19c73710245323f11805ea0d9fdd0182f9203e724aa2",
+   "http": 200,
+   "keys": [
+    "Recorder policy"
+   ],
+   "size": 21818,
+   "hash_ok": true,
+   "marker_hits_whole": {},
+   "magic_whole": [],
+   "fields_total": 851,
+   "len_fields": 795,
+   "max_depth": 13,
+   "marker_hits_fields": {},
+   "magic_fields": [],
+   "b64_rescan_hits": {},
+   "big_opaque_fields": [
+    [
+     21814,
+     7.83,
+     "3"
+    ],
+    [
+     21744,
+     7.84,
+     "3.2"
+    ],
+    [
+     2715,
+     7.8,
+     "3.2.1"
+    ],
+    [
+     2715,
+     7.8,
+     "3.2.1"
+    ],
+    [
+     2715,
+     7.8,
+     "3.2.1"
+    ]
+   ]
+  },
+  {
+   "digest": "dceb3093528225f44ba3dbef3ae8cc08451e3199211135c1e76e76986f521254",
+   "http": 200,
+   "keys": [
+    "Recorder policy"
+   ],
+   "size": 21818,
+   "hash_ok": true,
+   "marker_hits_whole": {},
+   "magic_whole": [],
+   "fields_total": 851,
+   "len_fields": 795,
+   "max_depth": 13,
+   "marker_hits_fields": {},
+   "magic_fields": [],
+   "b64_rescan_hits": {},
+   "big_opaque_fields": [
+    [
+     21814,
+     7.84,
+     "3"
+    ],
+    [
+     21744,
+     7.84,
+     "3.2"
+    ],
+    [
+     2715,
+     7.8,
+     "3.2.1"
+    ],
+    [
+     2715,
+     7.8,
+     "3.2.1"
+    ],
+    [
+     2715,
+     7.8,
+     "3.2.1"
+    ]
+   ]
+  },
+  {
+   "digest": "e02c4d48d4cada47527fcf67ebad00dbf5776b42adcd8b6b2640fa3e0b560e1d",
+   "http": 200,
+   "keys": [
+    "Recorder policy"
+   ],
+   "size": 24496,
+   "hash_ok": true,
+   "marker_hits_whole": {},
+   "magic_whole": [],
+   "fields_total": 957,
+   "len_fields": 894,
+   "max_depth": 13,
+   "marker_hits_fields": {},
+   "magic_fields": [],
+   "b64_rescan_hits": {},
+   "big_opaque_fields": [
+    [
+     24492,
+     7.84,
+     "3"
+    ],
+    [
+     24422,
+     7.84,
+     "3.2"
+    ],
+    [
+     2715,
+     7.8,
+     "3.2.1"
+    ],
+    [
+     2715,
+     7.8,
+     "3.2.1"
+    ],
+    [
+     2715,
+     7.8,
+     "3.2.1"
+    ]
+   ]
+  },
+  {
+   "digest": "e40476b4f754c986747f23963b61dc25b0c70c96596114f7a15c23ce1326fa34",
+   "http": 200,
+   "keys": [
+    "Google App policy"
+   ],
+   "size": 190540,
+   "hash_ok": true,
+   "marker_hits_whole": {},
+   "magic_whole": [],
+   "fields_total": 7470,
+   "len_fields": 6940,
+   "max_depth": 13,
+   "marker_hits_fields": {},
+   "magic_fields": [],
+   "b64_rescan_hits": {},
+   "big_opaque_fields": [
+    [
+     19050,
+     7.8,
+     "3"
+    ],
+    [
+     19050,
+     7.8,
+     "3"
+    ],
+    [
+     19050,
+     7.8,
+     "3"
+    ],
+    [
+     19050,
+     7.8,
+     "3"
+    ],
+    [
+     19050,
+     7.8,
+     "3"
+    ]
+   ]
+  },
+  {
+   "digest": "e95cf986437b51beff3189001c06fbf46e8c676c819efcc01f37ad2fa66ab56b",
+   "http": 200,
+   "keys": [
+    "Private Compute Services policy"
+   ],
+   "size": 19100,
+   "hash_ok": true,
+   "marker_hits_whole": {},
+   "magic_whole": [],
+   "fields_total": 745,
+   "len_fields": 696,
+   "max_depth": 13,
+   "marker_hits_fields": {},
+   "magic_fields": [],
+   "b64_rescan_hits": {},
+   "big_opaque_fields": [
+    [
+     19096,
+     7.83,
+     "3"
+    ],
+    [
+     19026,
+     7.84,
+     "3.2"
+    ],
+    [
+     2715,
+     7.8,
+     "3.2.1"
+    ],
+    [
+     2715,
+     7.8,
+     "3.2.1"
+    ],
+    [
+     2715,
+     7.8,
+     "3.2.1"
+    ]
+   ]
+  },
+  {
+   "digest": "f44598692ecb4b45f5fafe248cdf5d2c06be765f983ab4d1bce0bfe9c65e132f",
+   "http": 200,
+   "keys": [
+    "Recorder policy"
+   ],
+   "size": 24467,
+   "hash_ok": true,
+   "marker_hits_whole": {},
+   "magic_whole": [],
+   "fields_total": 958,
+   "len_fields": 891,
+   "max_depth": 13,
+   "marker_hits_fields": {},
+   "magic_fields": [],
+   "b64_rescan_hits": {},
+   "big_opaque_fields": [
+    [
+     24463,
+     7.81,
+     "3"
+    ],
+    [
+     24393,
+     7.81,
+     "3.2"
+    ],
+    [
+     2715,
+     7.79,
+     "3.2.1"
+    ],
+    [
+     2715,
+     7.79,
+     "3.2.1"
+    ],
+    [
+     2715,
+     7.79,
+     "3.2.1"
+    ]
+   ]
+  },
+  {
+   "digest": "f8a4dc99d473c836c80b501815979f9cae69b3f91f29adfa7df587ab86027d1a",
+   "http": 200,
+   "keys": [
+    "Google App policy"
+   ],
+   "size": 20313,
+   "hash_ok": true,
+   "marker_hits_whole": {},
+   "magic_whole": [],
+   "fields_total": 104,
+   "len_fields": 101,
+   "max_depth": 13,
+   "marker_hits_fields": {},
+   "magic_fields": [],
+   "b64_rescan_hits": {
+    "3.2.1.1.5.2.1": {
+     "_MAX_ZCDP": 2,
+     "ZCDP": 7,
+     "import ": 9,
+     "def ": 3,
+     "program": 3
+    }
+   },
+   "big_opaque_fields": [
+    [
+     2525,
+     7.82,
+     "3.2.1.1.2"
+    ],
+    [
+     2522,
+     7.82,
+     "3.2.1.1.2.2"
+    ],
+    [
+     2519,
+     7.81,
+     "3.2.1.1.2.2.2"
+    ],
+    [
+     1451,
+     7.72,
+     "3.2.1.1.2.2.2.2"
+    ]
+   ]
+  },
+  {
+   "digest": "fe84e59ddfeadcb7f39533663582102a2944f3ec57e1063cd5063d7fb722452a",
+   "http": 200,
+   "keys": [
+    "Pixel Search policy"
+   ],
+   "size": 65316,
+   "hash_ok": true,
+   "marker_hits_whole": {},
+   "magic_whole": [],
+   "fields_total": 2559,
+   "len_fields": 2379,
+   "max_depth": 13,
+   "marker_hits_fields": {},
+   "magic_fields": [],
+   "b64_rescan_hits": {},
+   "big_opaque_fields": [
+    [
+     21768,
+     7.81,
+     "3"
+    ],
+    [
+     21768,
+     7.81,
+     "3"
+    ],
+    [
+     21768,
+     7.81,
+     "3"
+    ],
+    [
+     21698,
+     7.81,
+     "3.2"
+    ],
+    [
+     21698,
+     7.81,
+     "3.2"
+    ]
+   ]
+  }
+ ]
+}

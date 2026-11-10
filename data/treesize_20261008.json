@@ -1,0 +1,140 @@
+{
+  "measured_at": "2026-10-08T22:54:51.064764+00:00",
+  "method": "binary search over POST /api/v1/log/entries/retrieve logIndexes",
+  "probes": [
+    {
+      "hi_probe": 2,
+      "exists": true
+    },
+    {
+      "hi_probe": 4,
+      "exists": true
+    },
+    {
+      "hi_probe": 8,
+      "exists": true
+    },
+    {
+      "hi_probe": 16,
+      "exists": true
+    },
+    {
+      "hi_probe": 32,
+      "exists": true
+    },
+    {
+      "hi_probe": 64,
+      "exists": true
+    },
+    {
+      "hi_probe": 128,
+      "exists": true
+    },
+    {
+      "hi_probe": 256,
+      "exists": true
+    },
+    {
+      "hi_probe": 512,
+      "exists": true
+    },
+    {
+      "hi_probe": 1024,
+      "exists": true
+    },
+    {
+      "hi_probe": 2048,
+      "exists": true
+    },
+    {
+      "hi_probe": 4096,
+      "exists": true
+    },
+    {
+      "hi_probe": 8192,
+      "exists": true
+    },
+    {
+      "hi_probe": 16384,
+      "exists": true
+    },
+    {
+      "hi_probe": 32768,
+      "exists": true
+    },
+    {
+      "hi_probe": 65536,
+      "exists": true
+    },
+    {
+      "hi_probe": 131072,
+      "exists": true
+    },
+    {
+      "hi_probe": 262144,
+      "exists": true
+    },
+    {
+      "hi_probe": 524288,
+      "exists": true
+    },
+    {
+      "hi_probe": 1048576,
+      "exists": true
+    },
+    {
+      "hi_probe": 2097152,
+      "exists": true
+    },
+    {
+      "hi_probe": 4194304,
+      "exists": true
+    },
+    {
+      "hi_probe": 8388608,
+      "exists": true
+    },
+    {
+      "hi_probe": 16777216,
+      "exists": true
+    },
+    {
+      "hi_probe": 33554432,
+      "exists": true
+    },
+    {
+      "hi_probe": 67108864,
+      "exists": true
+    },
+    {
+      "hi_probe": 134217728,
+      "exists": true
+    },
+    {
+      "hi_probe": 268435456,
+      "exists": true
+    },
+    {
+      "hi_probe": 536870912,
+      "exists": true
+    },
+    {
+      "hi_probe": 1073741824,
+      "exists": true
+    },
+    {
+      "hi_probe": 2147483648,
+      "exists": true
+    },
+    {
+      "hi_probe": 4294967296,
+      "exists": true
+    },
+    {
+      "hi_probe": 4294967296,
+      "exists": false
+    }
+  ],
+  "max_index": 3152818175,
+  "tree_size": 3152818176
+}

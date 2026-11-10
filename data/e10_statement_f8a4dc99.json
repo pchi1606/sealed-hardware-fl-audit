@@ -1,0 +1,19 @@
+{
+ "_type": "https://in-toto.io/Statement/v1",
+ "predicateType": "https://project-oak.github.io/oak/tr/endorsement/v1",
+ "subject": [
+  {
+   "name": "policy",
+   "digest": {
+    "sha256": "f8a4dc99d473c836c80b501815979f9cae69b3f91f29adfa7df587ab86027d1a"
+   }
+  }
+ ],
+ "predicate": {
+  "issuedOn": "2026-10-03T23:30:07.329970Z",
+  "validity": {
+   "notBefore": "2026-10-03T23:30:07.329970Z",
+   "notAfter": "2027-01-01T23:30:07.329970Z"
+  }
+ }
+}

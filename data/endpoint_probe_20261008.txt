@@ -1,0 +1,4 @@
+=== GET rekor.sigstore.dev/api/v1/log/info ===
+HTTP 404
+=== GET search.sigstore.dev/api/v1/... ===
+HTTP 405

@@ -20,7 +20,6 @@ from these files.
 | `reusable_build.yaml` | GitHub Actions reusable build recipe (from `google-parfait/confidential-federated-compute`) |
 | `build_kms_attempt.log` | Bazel rebuild attempt, 2026-10-05 (`NoSuchElementException` / `doTunneling` / `EXIT=37`) |
 | `build_reattempt_20261006.log` | Bazel rebuild re-attempt, 2026-10-06 (identical failure) |
-| `census_2026-11-04.json` | All-keys census (2026-11-04): per-key entry counts via `POST /api/v1/index/retrieve` for the 19 reconstructable published endorsement keys; total 509,569 entries (method and payload-verification scope in `../records/E8-census-signatures.md`) |
 | `treesize_20261008.json` | Rekor tree-size measurement transcript, 2026-10-08 (method: `../scripts/measure_tree_size.py`; note the endpoint flapping documented in the manuscript) |
 | `endpoint_probe_20261008.txt` | Live endpoint status transcript, 2026-10-08 (`log/info` → HTTP 404) |
 

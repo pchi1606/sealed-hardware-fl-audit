@@ -1,0 +1,32 @@
+Starting local Bazel server (8.2.1) and connecting to it...
+(05:29:34) INFO: Current date is 2026-10-06
+(05:29:34) Computing main repo mapping: 
+(05:29:35) Computing main repo mapping: 
+(05:29:36) Computing main repo mapping: 
+(05:29:36) FATAL: bazel crashed due to an internal error. Printing stack trace:
+java.lang.RuntimeException: Unrecoverable error while evaluating node 'Key[moduleKey=aspect_bazel_lib@2.22.5]' (requested by nodes 'com.google.devtools.build.lib.bazel.bzlmod.BazelModuleResolutionValue$$Lambda/0x000000003240b548@522f2215')
+	at com.google.devtools.build.skyframe.AbstractParallelEvaluator$Evaluate.run(AbstractParallelEvaluator.java:547)
+	at com.google.devtools.build.lib.concurrent.AbstractQueueVisitor$WrappedRunnable.run(AbstractQueueVisitor.java:435)
+	at java.base/java.util.concurrent.ForkJoinTask$AdaptedRunnableAction.exec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+Caused by: java.util.NoSuchElementException
+	at java.base/java.util.StringTokenizer.nextToken(Unknown Source)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.doTunneling0(Unknown Source)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.doTunneling(Unknown Source)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(Unknown Source)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.connect(Unknown Source)
+	at com.google.devtools.build.lib.bazel.repository.downloader.HttpConnector.connect(HttpConnector.java:156)
+	at com.google.devtools.build.lib.bazel.repository.downloader.HttpConnectorMultiplexer.connect(HttpConnectorMultiplexer.java:115)
+	at com.google.devtools.build.lib.bazel.repository.downloader.HttpDownloader.downloadAndReadOneUrl(HttpDownloader.java:158)
+	at com.google.devtools.build.lib.bazel.repository.downloader.DownloadManager.downloadAndReadOneUrlForBzlmod(DownloadManager.java:457)
+	at com.google.devtools.build.lib.bazel.bzlmod.IndexRegistry.doGrabFile(IndexRegistry.java:228)
+	at com.google.devtools.build.lib.bazel.bzlmod.IndexRegistry.grabFile(IndexRegistry.java:144)
+	at com.google.devtools.build.lib.bazel.bzlmod.IndexRegistry.getModuleFile(IndexRegistry.java:244)
+	at com.google.devtools.build.lib.bazel.bzlmod.ModuleFileFunction.getModuleFile(ModuleFileFunction.java:708)
+	at com.google.devtools.build.lib.bazel.bzlmod.ModuleFileFunction.compute(ModuleFileFunction.java:179)
+	at com.google.devtools.build.skyframe.AbstractParallelEvaluator$Evaluate.run(AbstractParallelEvaluator.java:467)
+	... 6 more
+EXIT=37

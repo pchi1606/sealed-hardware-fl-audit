@@ -1,0 +1,45 @@
+2026/10/05 02:54:35 Downloading https://releases.bazel.build/8.2.1/release/bazel-8.2.1-linux-x86_64...
+Extracting Bazel installation...
+Starting local Bazel server (8.2.1) and connecting to it...
+... still trying to connect to local Bazel server (26741) after 10 seconds ...
+... still trying to connect to local Bazel server (26741) after 20 seconds ...
+... still trying to connect to local Bazel server (26741) after 30 seconds ...
+... still trying to connect to local Bazel server (26741) after 40 seconds ...
+... still trying to connect to local Bazel server (26741) after 50 seconds ...
+... still trying to connect to local Bazel server (26741) after 60 seconds ...
+(03:01:54) WARNING: Option 'local_ram_resources' is deprecated: --local_ram_resources is deprecated, please use --local_resources=memory= instead.
+(03:02:16) INFO: Current date is 2026-10-05
+(03:02:16) Computing main repo mapping: 
+(03:02:23) Computing main repo mapping: 
+(03:02:24) Computing main repo mapping: 
+(03:02:28) Computing main repo mapping: 
+(03:02:29) Computing main repo mapping: 
+(03:02:30) Computing main repo mapping: 
+(03:02:37) Computing main repo mapping: 
+(03:02:38) FATAL: bazel crashed due to an internal error. Printing stack trace:
+java.lang.RuntimeException: Unrecoverable error while evaluating node 'Key[moduleKey=sqlite3@3.46.1]' (requested by nodes 'com.google.devtools.build.lib.bazel.bzlmod.BazelModuleResolutionValue$$Lambda/0x000000001840d000@2e1f332d')
+	at com.google.devtools.build.skyframe.AbstractParallelEvaluator$Evaluate.run(AbstractParallelEvaluator.java:547)
+	at com.google.devtools.build.lib.concurrent.AbstractQueueVisitor$WrappedRunnable.run(AbstractQueueVisitor.java:435)
+	at java.base/java.util.concurrent.ForkJoinTask$AdaptedRunnableAction.exec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+Caused by: java.util.NoSuchElementException
+	at java.base/java.util.StringTokenizer.nextToken(Unknown Source)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.doTunneling0(Unknown Source)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.doTunneling(Unknown Source)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(Unknown Source)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.connect(Unknown Source)
+	at com.google.devtools.build.lib.bazel.repository.downloader.HttpConnector.connect(HttpConnector.java:156)
+	at com.google.devtools.build.lib.bazel.repository.downloader.HttpConnectorMultiplexer.connect(HttpConnectorMultiplexer.java:115)
+	at com.google.devtools.build.lib.bazel.repository.downloader.HttpDownloader.downloadAndReadOneUrl(HttpDownloader.java:158)
+	at com.google.devtools.build.lib.bazel.repository.downloader.DownloadManager.downloadAndReadOneUrlForBzlmod(DownloadManager.java:457)
+	at com.google.devtools.build.lib.bazel.bzlmod.IndexRegistry.doGrabFile(IndexRegistry.java:228)
+	at com.google.devtools.build.lib.bazel.bzlmod.IndexRegistry.grabFile(IndexRegistry.java:144)
+	at com.google.devtools.build.lib.bazel.bzlmod.IndexRegistry.getModuleFile(IndexRegistry.java:244)
+	at com.google.devtools.build.lib.bazel.bzlmod.ModuleFileFunction.getModuleFile(ModuleFileFunction.java:708)
+	at com.google.devtools.build.lib.bazel.bzlmod.ModuleFileFunction.compute(ModuleFileFunction.java:179)
+	at com.google.devtools.build.skyframe.AbstractParallelEvaluator$Evaluate.run(AbstractParallelEvaluator.java:467)
+	... 6 more
+EXIT=37
